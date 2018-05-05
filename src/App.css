@@ -8,10 +8,59 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #1F1959;
+  /* height: 150px; */
   padding: 20px;
   color: white;
+}
+
+#container{
+  display: -webkit-inline-box;
+  padding: 20px;
+
+
+}
+#container2{
+  position: relative;
+  bottom: 145px;
+
+
+}
+
+#frontendCircle{
+  width: fit-content;
+  position: relative;
+  left: 40px;
+}
+
+#backendCircle{
+  width: fit-content;
+  position: relative;
+  right: 20px;
+}
+
+#musicCircle{
+  width: fit-content;
+  display: inline-block;
+  position: relative;
+  left: 40px;
+}
+
+#voipCircle{
+  width: fit-content;
+  display: inline-block;
+  position: relative;
+  right: 20px;
+
+}
+
+circle {
+    opacity: 0.75;
+}
+
+h2 {
+    position: relative;
+    bottom: 180px;
 }
 
 .App-title {

@@ -12,7 +12,7 @@ class BackEnd extends Component {
 
   }
 
-  showMsg = () => 'Hello World'
+  showMsg = () => 'React.Js MongoDB Express.js Node.js /n Pure Data C++ Python'
 
   render() {
     return (
@@ -28,18 +28,20 @@ class BackEnd extends Component {
           color='green'
           backgroundColor='black'
           barColor='black'
-          style={{ fontWeight: "bold", fontSize: "1em" }}
+          style={{ fontWeight: 'bold', fontSize: '1em' , whiteSpace: 'pre-line'}}
           commands={{
-            'open-google': () => window.open('https://www.google.com/', '_blank'),
+            skills: this.showMsg,
             showmsg: this.showMsg,
             popup: () => alert('Terminal in React')
           }}
           descriptions={{
-            'open-google': 'opens google.com',
+            skills: 'displays Skills',
             showmsg: 'shows a message',
             alert: 'alert', popup: 'alert'
           }}
-          msg='You can write anything here. Example - Hello! My name is Foo and I like Bar.'
+          msg='Zack Hagan Portfolio OS
+
+               Please type a command'
         />
       </div>
 
